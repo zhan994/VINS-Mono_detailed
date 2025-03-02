@@ -7,7 +7,7 @@ set(CMAKE_CXX_FLAGS_RELEASE "-O3 -Wall")
 
 find_package(catkin REQUIRED COMPONENTS roscpp std_msgs geometry_msgs nav_msgs cv_bridge image_transport)
 
-find_package(OpenCV REQUIRED)
+find_package(OpenCV 4 REQUIRED)
 
 catkin_package()
 

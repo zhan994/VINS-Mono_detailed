@@ -13,7 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
     camera_model
     )
 
-find_package(OpenCV REQUIRED)
+find_package(OpenCV 4 REQUIRED)
 
 catkin_package()
 
